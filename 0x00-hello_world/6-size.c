@@ -7,7 +7,7 @@
 *Warnings are not allowed
 */
 
-int main (void)
+int main(void)
 {
 	char c;
 	int i;
