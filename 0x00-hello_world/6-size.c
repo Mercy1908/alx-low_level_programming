@@ -1,22 +1,26 @@
-# include <stdio.h>
 
-/**
-* You should produce the exact same output as in the example
-* Warnings are allowed
-*
-*Your program should return 0
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+*This program prints the sizes of the different data types
+*Warnings are not allowed
 */
-int main(void)
+
+int main (void)
 {
-        char c;
-        int i;
-        long li;
-        long long lli;
-        Float f;
-	printf("size of a char: %ld byte(s)\n", sizeof(c));
-	printf("size of an int: %ld byte(s)\n", sizeof(i));
-	printf("size of a long int: %ld byte(s)\n", sizeof(li));
-	printf("size of a long long int: %ld byte(s)\n", sizeof(lli));
-	printf("size of a float: %ld byte(s)\n", sizeof(f));
+	char c;
+	int i;
+	long int li;
+	long long int lli;
+	float f;
+
+	printf("size of a char: %d byte(s)\n", sizeof(c));
+	printf("size of an int: %d byte(s)\n", sizeof(i));
+	printf("size of a long int: %d byte(s)\n", sizeof(li));
+	printf("size of a long long int: %d byte(s)\n", sizeof(lli));
+	printf("size of a float: %d byte(s)\n", sizeof(f));
+
 	return (0);
+
 }
